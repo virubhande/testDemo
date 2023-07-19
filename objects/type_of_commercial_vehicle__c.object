@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>type of commercial vehicle</label>
+    <nameField>
+        <displayFormat>O-{0000}</displayFormat>
+        <label>type of commercial vehicle Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>type of commercial vehicles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>state__c</fullName>
+        <externalId>false</externalId>
+        <label>state</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>maharshtra</fullName>
+                    <default>false</default>
+                    <label>maharshtra</label>
+                </value>
+                <value>
+                    <fullName>karnataka</fullName>
+                    <default>false</default>
+                    <label>karnataka</label>
+                </value>
+                <value>
+                    <fullName>telengana</fullName>
+                    <default>false</default>
+                    <label>telengana</label>
+                </value>
+                <value>
+                    <fullName>up</fullName>
+                    <default>false</default>
+                    <label>up</label>
+                </value>
+                <value>
+                    <fullName>Ap</fullName>
+                    <default>false</default>
+                    <label>Ap</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>types__c</fullName>
+        <externalId>false</externalId>
+        <label>types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>passanger carrying vehicle</fullName>
+                    <default>false</default>
+                    <label>passanger carrying vehicle</label>
+                </value>
+                <value>
+                    <fullName>goods carrying vehicle</fullName>
+                    <default>false</default>
+                    <label>goods carrying vehicle</label>
+                </value>
+                <value>
+                    <fullName>misc.type of vehicle</fullName>
+                    <default>false</default>
+                    <label>misc.type of vehicle</label>
+                </value>
+                <value>
+                    <fullName>motor trade</fullName>
+                    <default>false</default>
+                    <label>motor trade</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>years__c</fullName>
+        <externalId>false</externalId>
+        <label>years</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>subTypes__c</fullName>
+        <externalId>false</externalId>
+        <label>subTypes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>types__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>public carriers</fullName>
+                    <default>false</default>
+                    <label>public carriers</label>
+                </value>
+                <value>
+                    <fullName>private carriers</fullName>
+                    <default>false</default>
+                    <label>private carriers</label>
+                </value>
+                <value>
+                    <fullName>buses</fullName>
+                    <default>false</default>
+                    <label>buses</label>
+                </value>
+                <value>
+                    <fullName>Taxies</fullName>
+                    <default>false</default>
+                    <label>Taxies</label>
+                </value>
+                <value>
+                    <fullName>Auto Rickshaws</fullName>
+                    <default>false</default>
+                    <label>Auto Rickshaws</label>
+                </value>
+                <value>
+                    <fullName>Ambulances</fullName>
+                    <default>false</default>
+                    <label>Ambulances</label>
+                </value>
+                <value>
+                    <fullName>Tractors</fullName>
+                    <default>false</default>
+                    <label>Tractors</label>
+                </value>
+                <value>
+                    <fullName>road risks</fullName>
+                    <default>false</default>
+                    <label>road risks</label>
+                </value>
+                <value>
+                    <fullName>Road transit</fullName>
+                    <default>false</default>
+                    <label>Road transit</label>
+                </value>
+                <value>
+                    <fullName>Motor trade internal</fullName>
+                    <default>false</default>
+                    <label>Motor trade internal</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>passanger carrying vehicle</controllingFieldValue>
+                <valueName>public carriers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>passanger carrying vehicle</controllingFieldValue>
+                <valueName>private carriers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>goods carrying vehicle</controllingFieldValue>
+                <valueName>buses</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>goods carrying vehicle</controllingFieldValue>
+                <valueName>Taxies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>goods carrying vehicle</controllingFieldValue>
+                <valueName>Auto Rickshaws</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>misc.type of vehicle</controllingFieldValue>
+                <valueName>Ambulances</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>misc.type of vehicle</controllingFieldValue>
+                <valueName>Tractors</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>motor trade</controllingFieldValue>
+                <valueName>road risks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>motor trade</controllingFieldValue>
+                <valueName>Road transit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>motor trade</controllingFieldValue>
+                <valueName>Motor trade internal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>premium_rates__c</fullName>
+        <externalId>false</externalId>
+        <label>premium rates</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+</CustomObject>
