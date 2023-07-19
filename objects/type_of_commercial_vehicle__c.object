@@ -163,6 +163,7 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+
     <fields>
         <fullName>state__c</fullName>
         <externalId>false</externalId>
@@ -202,6 +203,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    
     <fields>
         <fullName>types__c</fullName>
         <externalId>false</externalId>
